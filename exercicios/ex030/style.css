@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+h1 {
+  text-align: center;
+}
+tbody > tr > td:nth-child(2n) {
+  background-color: white;
+}
+table {
+  border-collapse: collapse;
+  width: 500px;
+}
+td {
+  border: 2px solid black;
+  padding: 5px;
+  text-align: center;
+}
