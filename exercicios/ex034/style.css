@@ -11,6 +11,7 @@ caption {
   padding: 20px;
   font-weight: bolder;
   color: darkcyan;
+  font-size: 1.2em;
 }
 td,
 th {
@@ -18,5 +19,8 @@ th {
   padding: 5px;
 }
 tr:nth-child(even) {
-  background-color: rgba(240, 248, 255, 0.521);
+  background-color: rgba(124, 159, 190, 0.521);
+}
+div.container {
+  overflow-x: auto;
 }
